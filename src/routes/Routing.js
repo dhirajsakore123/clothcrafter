@@ -12,8 +12,8 @@ const Routing = () => {
   return (
     <div className='w-full mt-20 bg-sky-50'>
       <Routes>
-        <Route path='/' element={<Home/>}/>
-        <Route path='/casual' element={<Casual/>}/>
+        <Route path='/casual' element={<Home/>}/>
+        <Route path='/' element={<Casual/>}/>
         <Route path='/hoddies' element={<Hoddies/>}/>
         <Route path='/oversize' element={<Oversize/>}/>
         <Route path='/polo' element={<Polo/>}/>
