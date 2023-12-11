@@ -20,7 +20,7 @@ const Pagegeneric = (props) => {
    
 
   return (
-    <div className='w-full relative min-h-screen '>
+    <div className='w-full relative min-h-screen pt-2'>
         <HomeSlider/>
         <div className='w-full flex flex-wrap min-h-screen '>
              <div className='w-[100%]  py-10 relative md:w-[25%]'>

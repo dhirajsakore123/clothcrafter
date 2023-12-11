@@ -13,19 +13,19 @@ const HomeSlider = () => {
    
        <Carousel infiniteLoop autoPlay showThumbs={false}>
             <div className='image'>
-            <img src={Screen1} alt='Screen1'/>
+            <img src={Screen1} alt='Screen1' className=' h-48 md:h-auto'/>
             </div>
             <div className='image'>
-            <img src={Screen2} alt='Screen2'/>
+            <img src={Screen2} alt='Screen2' className=' h-48 md:h-auto'/>
             </div>
             <div className='image'>
-            <img src={Screen3} alt='SScreen3'/>
+            <img src={Screen3} alt='SScreen3' className=' h-48 md:h-auto'/>
             </div>
             <div className='image'>
-            <img src={Screen4} alt='Screen4'/>
+            <img src={Screen4} alt='Screen4' className=' h-48 md:h-auto'/>
             </div>
             <div className='image'>
-            <img src={Screen5} alt='Screen5'/>
+            <img src={Screen5} alt='Screen5' className=' h-48 md:h-auto'/>
             </div>
           
           </Carousel>
