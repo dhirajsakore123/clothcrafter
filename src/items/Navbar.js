@@ -11,7 +11,7 @@ import { useNavigate } from 'react-router-dom'
 
 const Navbar = () => {
   const navigate=useNavigate()
-  const[cart ,setCart]=useState(1)
+  const[cart]=useState(1)
   return (
     <div className='flex-col fixed top-0 w-full z-50'>
 
