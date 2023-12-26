@@ -16,9 +16,9 @@ const Navbar = () => {
     <div className='flex-col fixed top-0 w-full z-50'>
 
        <div className='h-14 bg-sky-600 flex justify-between lg:justify-evenly'>
-          <div className='w-[40%]  h-14 flex gap-x-1 items-center'>
-            <img src={logo1} alt='not found' className=' h-12  drop-shadow-[-2px_2px_2px_black]  ml-3 md:ml-16'/>
-            <img src={logo2} alt='not found' className='h-7   drop-shadow-[-2px_2px_2px_black] mt-3 ml-2'/>
+          <div className='w-[40%]  h-14 flex gap-x-1 items-center brk'>
+            {/* <img src={logo1} alt='not found' className=' h-12  drop-shadow-[-2px_2px_2px_black]  ml-3 md:ml-16'/> */}
+            <img src={logo2} alt='not found' className='h-7   drop-shadow-[-2px_2px_2px_black] mt-3 ml-10'/>
           </div>
 
           <div className='w-1/2 lg:flex justify-center items-center hidden '>
