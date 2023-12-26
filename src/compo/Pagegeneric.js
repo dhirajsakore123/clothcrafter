@@ -43,9 +43,9 @@ const Pagegeneric = (props) => {
                                 </p>
                                 <hr className='w-[90%]'/>
                             <div className='flex items-end gap-2 pl-2 '>
-                                <p className='text-sky-600 font-bold font-serif text-[0.8rem]'>₹{item.cost}</p> 
-                                <p className=' text-gray-400 text-sm font-medium line-through font-serif text-[0.8rem]'>₹{item.selling}</p> 
-                                <p className='text-sky-600 font-serif text-[0.8rem]'>Off {handelCound(item.cost,item.selling)}%</p>    
+                                <p className='text-gray-400 font-bold font-serif line-through text-[0.8rem]'>₹{item.cost}</p> 
+                                <p className=' text-sky-500 text-sm font-medium  font-serif text-[0.8rem]'>₹{item.selling}</p> 
+                                <p className='text-sky-500 font-serif text-[0.8rem]'>Off {handelCound(item.cost,item.selling)}%</p>    
                             </div>
                         </div>
                         <div className=' absolute w-9 h-9  grid place-content-center rounded-full bg-slate-400 bg-opacity-50 top-3 right-2'>
