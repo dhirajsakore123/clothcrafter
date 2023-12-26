@@ -5,7 +5,6 @@ import { Search } from 'lucide-react'
 import { ChevronDown } from 'lucide-react'
 import { AlignRight } from 'lucide-react'
 import { UserRound } from 'lucide-react'
-import logo1 from '../logos/cloth-bear.png'
 import logo2 from '../logos/cloth-logo.png'
 import { useNavigate } from 'react-router-dom'
 
