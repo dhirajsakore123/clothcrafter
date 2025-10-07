@@ -171,8 +171,8 @@ import { createContext } from "react"
       },
       {
         id:11,
-        cat:"T-shirts",
-        cat1:"Casual T-shirts",
+        cat:"T-shirt",
+        cat1:"Casual T-shirt",
         cat3:"",
         color:"Sage Green",
         img1:"https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1669298805_6884469.jpg?format=webp&w=480&dpr=1.3",
