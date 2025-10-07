@@ -3,7 +3,7 @@ import { createContext } from "react"
  const data=createContext([  
     {
       id:1,
-      cat:"T-shirts",
+      cat:"T-shirt",
       cat1:"Casual T-shirts",
       cat3:"",
       color:"red",
